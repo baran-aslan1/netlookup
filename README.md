@@ -101,10 +101,10 @@ MIT — see [LICENSE](LICENSE).
 
 ## Türkçe
 
-Network mühendisleri için bir `whois` ön yüzü. Tek komutla ASN / IP / prefix
-sorgusu, RPKI kontrolü, IRR/RADB prefix'leri, BGP komşuları, PeeringDB verisi ve
-as-set açılımı. Kendi kapsamındaki dışındaki her şeyi — RIR/RPSL objeleri,
-domain'ler — normal `whois`'e bırakır.
+Network mühendisleri için bir `whois` toolu. Tek komutla ASN / IP / prefix
+sorgusu, RPKI kontrolü, IRR/RADB prefix'leri, BGP peerlar'ı, PeeringDB verisi ve
+as-set bilgilerini tek bir tool üzerinden görüntülemeyi sağlar. 
+Kendi kapsamındaki dışındaki her şeyi — RIR/RPSL objeleri, domain'ler — normal `whois`'e bırakır.
 
 ### Ne yapar
 
@@ -126,7 +126,7 @@ domain'ler — normal `whois`'e bırakır.
 ### Gereksinimler
 
 macOS'ta `zsh`, `curl`, `whois` hazır gelir. Ayrıca `jq` ve `bgpq4` gerekir.
-Kurulum betiği hepsini (yoksa Homebrew dahil) halleder.
+Kurulum betiği hepsini (yoksa Homebrew dahil) yükler.
 
 ### Kurulum
 
